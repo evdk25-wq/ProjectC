@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="IMG-20260327-WA0005.jpg" alt="Dashboard et Actions" width="40%" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="c-1.jpeg" alt="Tickets et Détails" width="40%" />
+</p>
+
 # Projet C - Technical Documentation
 
 **Version:** 4.0 — 01/04/2026  
