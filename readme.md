@@ -59,7 +59,7 @@ Mobile port of the C web SaaS (React + Node.js) to a React Native + Expo applica
 ```
 C/
 ├── App.tsx                              ← Entry point + routing by AuthState
-├── app.json                             ← Expo config (scheme: "capafix")
+├── app.json                             ← Expo config (scheme: "c")
 ├── .env                                 ← Env variables (do not commit)
 ├── .env.example                         ← Team template (fake URLs)
 └── src/
@@ -242,7 +242,7 @@ status === 'authenticated'   → AppNavigator (bottom tabs)
     ↓
 [User enters credentials on Keycloak]
     ↓
-[Keycloak redirects to capafix:// with ?code=...]
+[Keycloak redirects to c:// with ?code=...]
     ↓
 [AuthService.exchangeCode() → access_token + refresh_token + id_token]
     ↓
@@ -291,7 +291,7 @@ The `isRefreshingRef` lock prevents multiple parallel refreshes if several reque
 ```
 [AuthService.revokeRefreshToken()]
     ↓
-[WebBrowser → /openid-connect/logout?id_token_hint=...&post_logout_redirect_uri=capafix://]
+[WebBrowser → /openid-connect/logout?id_token_hint=...&post_logout_redirect_uri=c...://]
     ↓
 [Keycloak destroys the SSO session]
     ↓
