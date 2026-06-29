@@ -1,4 +1,4 @@
-# Projet C — Technical Documentation
+# Projet C - Technical Documentation
 
 **Version:** 4.0 — 01/04/2026  
 **Status:** Clean Architecture + Stack Navigation + Actions + Search + Filters + RCA Investigation ✓
